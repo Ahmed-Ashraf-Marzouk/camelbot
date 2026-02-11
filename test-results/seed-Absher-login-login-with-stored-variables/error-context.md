@@ -1,0 +1,527 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link [ref=e4] [cursor=pointer]:
+        - /url: "?uri=nm:oid:wps.Login"
+        - img [ref=e5]
+      - generic [ref=e6]:
+        - list [ref=e7]:
+          - listitem [ref=e8]:
+            - link "Home" [ref=e9] [cursor=pointer]:
+              - /url: "?uri=nm:oid:wps.Login"
+          - listitem [ref=e10]:
+            - link "About Absher" [ref=e11] [cursor=pointer]:
+              - /url: "?uri=nm:oid:moi.absher.footer.about"
+          - listitem [ref=e12]:
+            - link "eParticipation" [ref=e13] [cursor=pointer]:
+              - /url: "?uri=nm:oid:absher.footer.eparticipation"
+          - listitem [ref=e14]:
+            - link "Services Guide" [ref=e15] [cursor=pointer]:
+              - /url: "?uri=nm:oid:absher.userguide"
+        - list [ref=e16]:
+          - paragraph [ref=e18] [cursor=pointer]:
+            - img [ref=e19]
+            - text: Other Absher Platforms
+            - img [ref=e22]
+          - listitem [ref=e23]:
+            - img [ref=e24]
+            - link "العربية" [ref=e27] [cursor=pointer]:
+              - /url: /wps/portal/individuals/Home/homepublic/!ut/p/z1/hY4xT8MwEIX_SjKw2k5aKKvD4FaqBDQDjZfqSE6RK8e2fG4K_HrcoQNSK266e--7p8c133PtYDYjJOMd2Hx3-umgqkquayW2Su1q8f4iq8VKNtVz9cg__gN0tsWdkSL_6xuIFM2ubhZCqNf6JvAno0XHu9xjdbfHesnbS84RZvhiwcdkMTEg3omLfA50FYlZPxrHKEE60WFCIhiRd62P8bssNq7PC_apOBFGBxM-iABEZx8HVrxZBMIiRD-bAYsr2kcc0CUDlhgP014cl_D5I8vyF_4Iy0M!/dz/d5/L0lHSkovd0RNQUZrQUVnQSEhLzROVkUvYXI!/
+          - listitem [ref=e28]:
+            - img [ref=e29]
+            - link "Search" [ref=e32] [cursor=pointer]:
+              - /url: "#search"
+          - listitem [ref=e33]:
+            - img "Absher-Logo" [ref=e35]
+  - main [ref=e36]:
+    - generic [ref=e39]:
+      - generic [ref=e41]:
+        - generic [ref=e42]:
+          - generic [ref=e44]:
+            - generic [ref=e45]:
+              - link:
+                - /url: ""
+            - generic [ref=e47]:
+              - link:
+                - /url: ""
+            - link [ref=e50] [cursor=pointer]:
+              - /url: /wps/portal/individuals/static/servicespage/vprs
+            - link [ref=e53] [cursor=pointer]:
+              - /url: https://www.absher.sa/wps/vanityurl/en/querytrafficviolationinquiry
+          - generic:
+            - generic:
+              - button [ref=e55] [cursor=pointer]:
+                - img [ref=e56]
+              - button [ref=e58] [cursor=pointer]:
+                - img [ref=e59]
+        - generic [ref=e64]:
+          - generic [ref=e65]:
+            - heading "Login" [level=6] [ref=e66]
+            - generic [ref=e68]:
+              - generic [ref=e69]: Sorry! Incorrect username/password. Please provide correct credentials.
+              - button [ref=e70] [cursor=pointer]
+            - generic [ref=e71]:
+              - generic [ref=e72]:
+                - strong [ref=e74]: Username or ID Number
+                - generic [ref=e75]:
+                  - img [ref=e76]
+                  - textbox "Username or ID Number" [active] [ref=e78]
+              - generic [ref=e79]:
+                - strong [ref=e81]: Password
+                - generic [ref=e82]:
+                  - img [ref=e83]
+                  - textbox "Password" [ref=e85]
+                  - button [ref=e86] [cursor=pointer]:
+                    - img [ref=e87]
+                - link "Forgot Password?" [ref=e89] [cursor=pointer]:
+                  - /url: /wps/vanityurl/en/resetpasswordindividuals
+          - generic [ref=e90]:
+            - button "Log in" [ref=e91] [cursor=pointer]
+            - link "New User?" [ref=e93] [cursor=pointer]:
+              - /url: /wps/vanityurl/en/registerindividuals
+      - generic [ref=e94]:
+        - generic [ref=e96]:
+          - heading "Instant Absher Services" [level=3] [ref=e97]
+          - paragraph [ref=e98]: Services that do not require login to execute
+        - generic [ref=e99]:
+          - tablist [ref=e100]:
+            - tab "Appointments" [selected] [ref=e101] [cursor=pointer]:
+              - img [ref=e102]
+              - text: Appointments
+            - tab "Vehicles" [selected] [ref=e104] [cursor=pointer]:
+              - img [ref=e105]
+              - text: Vehicles
+            - tab "Visitors" [selected] [ref=e107] [cursor=pointer]:
+              - img [ref=e108]
+              - text: Visitors
+            - tab "Certificates" [selected] [ref=e110] [cursor=pointer]:
+              - img [ref=e111]
+              - text: Certificates
+            - tab "Violations" [selected] [ref=e113] [cursor=pointer]:
+              - img [ref=e114]
+              - text: Violations
+            - tab "Others" [selected] [ref=e116] [cursor=pointer]:
+              - img [ref=e117]
+              - text: Others
+          - tabpanel "Appointments" [ref=e137]:
+            - generic [ref=e138]:
+              - tablist [ref=e139]:
+                - tab "Issue Driving License" [selected] [ref=e140] [cursor=pointer]:
+                  - img [ref=e141]
+                  - text: Issue Driving License
+                - tab "Civil Affairs Appointments" [selected] [ref=e143] [cursor=pointer]:
+                  - img [ref=e144]
+                  - text: Civil Affairs Appointments
+                - tab "General Directorate of Passports Appointments" [selected] [ref=e146] [cursor=pointer]:
+                  - img [ref=e147]
+                  - text: General Directorate of Passports Appointments
+              - tabpanel "Issue Driving License" [ref=e150]:
+                - generic [ref=e151]:
+                  - heading "Issue Driving License" [level=3] [ref=e152]
+                  - paragraph [ref=e153]: This service allows beneficiaries to book training appointments at driving schools, enabling them to complete the necessary training requirements to obtain a driver's license and issue it upon fulfilling all requirements.
+                  - link "Start Service" [ref=e155] [cursor=pointer]:
+                    - /url: /wps/portal/traffic/Home/tf-book-appointment/!ut/p/z1/04_Sj9CPykssy0xPLMnMz0vMAfIjo8ziDTxNTDwMTYy83X2CTQ0CLULdjC2MXQ0NLMz0wyEKUICjgVOQkZOxgYG7v5F-FOn6kU0iUj9uBVH4jQ_Xj8KiBNUHhMwITs3TL8gNDY0wyDIBAPI_3O8!/dz/d5/L0lHSkovd0RNQUZrQUVnQSEhLzROVkUvYXI!/
+                    - strong [ref=e156]: Start Service
+      - generic [ref=e157]:
+        - generic [ref=e158]:
+          - generic [ref=e159]:
+            - heading "Most Used Services" [level=3] [ref=e160]
+            - link "All Services" [ref=e161] [cursor=pointer]:
+              - /url: "?uri=nm:oid:absher.userguide"
+              - generic [ref=e162]: All Services
+              - img [ref=e163]
+          - generic [ref=e166]:
+            - generic:
+              - button [ref=e167] [cursor=pointer]:
+                - img [ref=e168]
+              - button [ref=e169] [cursor=pointer]:
+                - img [ref=e170]
+            - generic [ref=e176]:
+              - generic [ref=e178]:
+                - img [ref=e180]
+                - generic [ref=e182]:
+                  - heading "Register Newborn" [level=3] [ref=e184]
+                  - paragraph [ref=e186]: Register newborns and request delivery for related documents.
+                - link "Start Service" [ref=e188] [cursor=pointer]:
+                  - /url: "?1dmy&page=absher.userguide.service.contents&pswid=Z7_11D8H2G0L8KRD0QCP61THH3871&urile=wcm%3apath%3a%2Fcontents%2Findividuals%2Feservices%2Buser%2Bguide%2Feservices%2Fcivil-affairs-services%2Fcivil%2Baffairs_service11"
+                  - strong [ref=e189]:
+                    - text: Start Service
+                    - img [ref=e190]
+              - generic [ref=e194]:
+                - img [ref=e196]
+                - generic [ref=e200]:
+                  - heading "Iqama Renewal" [level=3] [ref=e202]
+                  - paragraph [ref=e204]: This service allows residents to renew their ID and have it delivered.
+                - link "Start Service" [ref=e206] [cursor=pointer]:
+                  - /url: "?1dmy&page=absher.userguide.service.contents&pswid=Z7_11D8H2G0L8KRD0QCP61THH3871&urile=wcm%3apath%3a%2Fcontents%2Findividuals%2Feservices%2Buser%2Bguide%2Feservices%2Fpassport-services%2Fpassprts_service5"
+                  - strong [ref=e207]:
+                    - text: Start Service
+                    - img [ref=e208]
+              - generic [ref=e212]:
+                - img [ref=e214]
+                - generic [ref=e216]:
+                  - heading "Vehicles Registration Renewal" [level=3] [ref=e218]
+                  - paragraph [ref=e220]: This service allows individuals to renew their vehicle registration.
+                - link "Start Service" [ref=e222] [cursor=pointer]:
+                  - /url: "?1dmy&page=absher.userguide.service.contents&pswid=Z7_11D8H2G0L8KRD0QCP61THH3871&urile=wcm%3apath%3a%2Fcontents%2Findividuals%2Feservices%2Buser%2Bguide%2Feservices%2Ftraffic-services%2Ftraffic_service2"
+                  - strong [ref=e223]:
+                    - text: Start Service
+                    - img [ref=e224]
+              - generic [ref=e228]:
+                - img [ref=e230]
+                - generic [ref=e232]:
+                  - heading "Document Postal Delivery" [level=3] [ref=e234]
+                  - paragraph [ref=e236]: It allows individuals to request delivery of documents processed via Absher.
+                - link "Start Service" [ref=e238] [cursor=pointer]:
+                  - /url: "?1dmy&page=absher.userguide.service.contents&pswid=Z7_11D8H2G0L8KRD0QCP61THH3871&urile=wcm%3apath%3a%2Fcontents%2Findividuals%2Feservices%2Buser%2Bguide%2Feservices%2Fgeneral-services%2Fgenaral_service3"
+                  - strong [ref=e239]:
+                    - text: Start Service
+                    - img [ref=e240]
+              - generic [ref=e244]:
+                - img [ref=e246]
+                - generic [ref=e248]:
+                  - heading "Payment for the prisoners with financial cases (Furijat)" [level=3] [ref=e250]
+                  - paragraph [ref=e252]: It allows donations to settle the debts of those convicted in financial cases.
+                - link "Start Service" [ref=e254] [cursor=pointer]:
+                  - /url: "?1dmy&page=absher.userguide.service.contents&pswid=Z7_11D8H2G0L8KRD0QCP61THH3871&urile=wcm%3apath%3a%2Fcontents%2Findividuals%2Feservices%2Buser%2Bguide%2Feservices%2Fprisons%2Fprs_service1"
+                  - strong [ref=e255]:
+                    - text: Start Service
+                    - img [ref=e256]
+        - generic [ref=e260]:
+          - generic [ref=e262]:
+            - heading "Absher Activation Devices" [level=3] [ref=e263]
+            - paragraph [ref=e264]: Absher Devices Locations around the Kingdom of Saudi Arabia
+            - generic [ref=e267]:
+              - generic [ref=e269]:
+                - generic [ref=e270] [cursor=pointer]: Region
+                - button "Choose Region" [ref=e271] [cursor=pointer]:
+                  - generic [ref=e272]: Choose Region
+                  - img [ref=e274]
+              - generic [ref=e277]:
+                - generic [ref=e278] [cursor=pointer]: City
+                - button "Choose City" [ref=e279] [cursor=pointer]:
+                  - generic [ref=e280]: Choose City
+                  - img [ref=e282]
+          - generic [ref=e287]:
+            - list
+        - generic [ref=e288]:
+          - img [ref=e289]
+          - generic [ref=e291]:
+            - generic [ref=e292]:
+              - heading "Absher in Numbers" [level=3] [ref=e293]
+              - paragraph [ref=e294]: Numbers about Absher in 2024
+            - generic [ref=e295]:
+              - generic [ref=e296]:
+                - img [ref=e297]
+                - paragraph [ref=e301]: Digital IDs in all Absher channels
+                - heading "+ 28+ Million" [level=6] [ref=e303]:
+                  - text: +
+                  - generic [ref=e304]: 28+
+                  - paragraph [ref=e306]: Million
+                - paragraph:
+                  - strong
+              - generic [ref=e307]:
+                - img [ref=e308]
+                - paragraph [ref=e310]: Performed E-Services
+                - heading "+ 430+ Million" [level=6] [ref=e312]:
+                  - text: +
+                  - generic [ref=e313]: 430+
+                  - paragraph [ref=e315]: Million
+                - paragraph:
+                  - strong
+              - generic [ref=e316]:
+                - img [ref=e317]
+                - paragraph [ref=e319]: Logins in Absher Individuals Platform
+                - heading "+ 337+ Million" [level=6] [ref=e321]:
+                  - text: +
+                  - generic [ref=e322]: 337+
+                  - paragraph [ref=e324]: Million
+                - paragraph:
+                  - strong
+              - generic [ref=e325]:
+                - img [ref=e326]
+                - paragraph [ref=e328]: Number of Absher Apps downloads
+                - heading "+ 24+ Million" [level=6] [ref=e330]:
+                  - text: +
+                  - generic [ref=e331]: 24+
+                  - paragraph [ref=e333]: Million
+                - paragraph:
+                  - strong
+            - paragraph
+        - generic [ref=e334]:
+          - generic [ref=e335]:
+            - generic [ref=e336]:
+              - heading "News" [level=3] [ref=e337]
+              - paragraph [ref=e338]: Latest news on updates about Absher Platform
+            - link "More" [ref=e339] [cursor=pointer]:
+              - /url: "?1dmy&page=wps.absher.home.contents&urile=wcm:path:/contents/individuals/news_en"
+              - generic [ref=e340]: More
+              - img [ref=e341]
+          - generic [ref=e344]:
+            - generic:
+              - button [ref=e345] [cursor=pointer]:
+                - img [ref=e346]
+              - button [ref=e347] [cursor=pointer]:
+                - img [ref=e348]
+            - generic [ref=e354]:
+              - generic [ref=e356]:
+                - img [ref=e358]
+                - generic [ref=e359]:
+                  - heading [level=6] [ref=e360]
+                  - generic [ref=e362]: Wednesday 21 January 2026
+                  - paragraph [ref=e363]:
+                    - text: This content is available in Arabic only.
+                    - link "More..." [ref=e364] [cursor=pointer]:
+                      - /url: "?1dmy&page=wps.absher.home.contents&urile=wcm%3apath%3a%2Fcontents%2Findividuals%2Fnews%2Fnews%2Barchive%2Fabsher_new_21-01-2026a_en"
+                      - strong [ref=e365]: More...
+              - generic [ref=e367]:
+                - img [ref=e369]
+                - generic [ref=e370]:
+                  - heading [level=6] [ref=e371]
+                  - generic [ref=e373]: Monday 15 December 2025
+                  - paragraph [ref=e374]:
+                    - text: This content is available in Arabic only.
+                    - link "More..." [ref=e375] [cursor=pointer]:
+                      - /url: "?1dmy&page=wps.absher.home.contents&urile=wcm%3apath%3a%2Fcontents%2Findividuals%2Fnews%2Fnews%2Barchive%2Fabsher_new_15-12-2025a_en"
+                      - strong [ref=e376]: More...
+              - generic [ref=e378]:
+                - img [ref=e380]
+                - generic [ref=e381]:
+                  - heading [level=6] [ref=e382]
+                  - generic [ref=e384]: Wednesday 10 December 2025
+                  - paragraph [ref=e385]:
+                    - text: This content is available in Arabic only.
+                    - link "More..." [ref=e386] [cursor=pointer]:
+                      - /url: "?1dmy&page=wps.absher.home.contents&urile=wcm%3apath%3a%2Fcontents%2Findividuals%2Fnews%2Fnews%2Barchive%2Fabsher_new_10-12-2025a_en"
+                      - strong [ref=e387]: More...
+              - generic [ref=e389]:
+                - img [ref=e391]
+                - generic [ref=e392]:
+                  - heading [level=6] [ref=e393]
+                  - generic [ref=e395]: Wednesday 03 December 2025
+                  - paragraph [ref=e396]:
+                    - text: This content is available in Arabic only.
+                    - link "More..." [ref=e397] [cursor=pointer]:
+                      - /url: "?1dmy&page=wps.absher.home.contents&urile=wcm%3apath%3a%2Fcontents%2Findividuals%2Fnews%2Fnews%2Barchive%2Fabsher_new_03-12-2025a_en"
+                      - strong [ref=e398]: More...
+              - generic [ref=e400]:
+                - img [ref=e402]
+                - generic [ref=e403]:
+                  - heading [level=6] [ref=e404]
+                  - generic [ref=e406]: Sunday 23 November 2025
+                  - paragraph [ref=e407]:
+                    - text: This content is available in Arabic only.
+                    - link "More..." [ref=e408] [cursor=pointer]:
+                      - /url: "?1dmy&page=wps.absher.home.contents&urile=wcm%3apath%3a%2Fcontents%2Findividuals%2Fnews%2Fnews%2Barchive%2Fabsher_new_23-11-2025a_en"
+                      - strong [ref=e409]: More...
+        - generic [ref=e411]:
+          - img "image placeholder" [ref=e413]
+          - generic [ref=e414]:
+            - generic [ref=e415]:
+              - img [ref=e416]
+              - heading "Absher Application" [level=4] [ref=e418]
+              - paragraph [ref=e419]: Download now
+            - generic [ref=e420]:
+              - link "Apple Store" [ref=e421] [cursor=pointer]:
+                - /url: https://apps.apple.com/sa/app/absher-%D8%A3%D8%A8%D8%B4%D8%B1/id1004966456
+                - img "Apple Store" [ref=e422]
+              - link "Google Play" [ref=e423] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=sa.gov.moi
+                - img "Google Play" [ref=e424]
+              - link "huawei gallery" [ref=e425] [cursor=pointer]:
+                - /url: https://appgallery.huawei.com/#/app/C101687609
+                - img "huawei gallery" [ref=e426]
+        - generic [ref=e428]:
+          - img [ref=e430]
+          - paragraph [ref=e435]: Do you have any inquiries or suggestions?
+          - paragraph [ref=e437]: We welcome your inquiries and suggestions through the contact us page
+          - button "Contact Us" [ref=e439] [cursor=pointer]:
+            - link "Contact Us" [ref=e440]:
+              - /url: "?uri=nm:oid:moi.contact.content"
+        - link "Login to" [ref=e442] [cursor=pointer]:
+          - /url: "?uri=nm:oid:wps.Login"
+          - text: Login to
+          - img [ref=e443]
+  - contentinfo [ref=e445]:
+    - generic [ref=e446]:
+      - generic [ref=e449]:
+        - generic [ref=e450]:
+          - img [ref=e452]
+          - generic [ref=e454]:
+            - paragraph [ref=e455]: A platform that provides the services of the Ministry of Interior to Citizens, Residents and Visitors
+            - generic [ref=e456]:
+              - paragraph [ref=e457]:
+                - strong [ref=e458]: Download the Absher application
+              - generic [ref=e459]:
+                - link [ref=e460] [cursor=pointer]:
+                  - /url: https://appgallery.huawei.com/#/app/C101687609
+                - link [ref=e461] [cursor=pointer]:
+                  - /url: https://play.google.com/store/apps/details?id=sa.gov.moi
+                - link [ref=e462] [cursor=pointer]:
+                  - /url: https://apps.apple.com/sa/app/absher-%D8%A3%D8%A8%D8%B4%D8%B1/id1004966456
+        - generic [ref=e464]:
+          - generic [ref=e465]:
+            - heading "About Absher" [level=2] [ref=e466]:
+              - button "About Absher" [disabled] [expanded] [ref=e467]:
+                - generic [ref=e468]: About Absher
+            - list [ref=e471]:
+              - listitem [ref=e472]:
+                - link "About Absher" [ref=e473] [cursor=pointer]:
+                  - /url: "?uri=nm:oid:moi.absher.footer.about"
+              - listitem [ref=e474]:
+                - link "Privacy Policy" [ref=e475] [cursor=pointer]:
+                  - /url: "?uri=nm:oid:moi.Privacy%2520Policy"
+              - listitem [ref=e476]:
+                - link "Terms of Use" [ref=e477] [cursor=pointer]:
+                  - /url: "?uri=nm:oid:moi.Terms%2520of%2520Use"
+              - listitem [ref=e478]:
+                - link "News" [ref=e479] [cursor=pointer]:
+                  - /url: "?uri=nm:oid:moi.absher.footer.news"
+              - listitem [ref=e480]:
+                - link "Service level agreement" [ref=e481] [cursor=pointer]:
+                  - /url: "?uri=nm:oid:absher.footer.sla"
+              - listitem [ref=e482]:
+                - link "Accessibility" [ref=e483] [cursor=pointer]:
+                  - /url: "?uri=nm:oid:absher.footer.accessibility"
+              - listitem [ref=e484]:
+                - link "Statistical Data" [ref=e485] [cursor=pointer]:
+                  - /url: "?uri=nm:oid:absher.footer.sd"
+              - listitem [ref=e486]:
+                - link "Information security" [ref=e487] [cursor=pointer]:
+                  - /url: "?uri=nm:oid:absher.footer.iss"
+          - generic [ref=e488]:
+            - heading "Contact and support" [level=2] [ref=e489]:
+              - button "Contact and support" [disabled] [expanded] [ref=e490]:
+                - generic [ref=e491]: Contact and support
+            - list [ref=e494]:
+              - listitem [ref=e495]:
+                - link "Contact Us" [ref=e496] [cursor=pointer]:
+                  - /url: "?uri=nm:oid:moi.contact.content"
+              - listitem [ref=e497]:
+                - link "Report Corruption (Nazaha)" [ref=e498] [cursor=pointer]:
+                  - /url: https://my.gov.sa/en/content/report-corruption
+              - listitem [ref=e499]:
+                - link "FAQs" [ref=e500] [cursor=pointer]:
+                  - /url: "?uri=nm:oid:moi.footer.faqs"
+              - listitem [ref=e501]:
+                - link "Service channels" [ref=e502] [cursor=pointer]:
+                  - /url: "?uri=nm:oid:absher.footer.sc"
+              - listitem [ref=e503]:
+                - link "National ID Activation Channels" [ref=e504] [cursor=pointer]:
+                  - /url: "?uri=nm:oid:absher.activation.offices"
+              - listitem [ref=e505]:
+                - link "Registration and Subscription" [ref=e506] [cursor=pointer]:
+                  - /url: "?uri=nm:oid:absher.footer.subscribe"
+          - generic [ref=e507]:
+            - heading "Important Links" [level=2] [ref=e508]:
+              - button "Important Links" [disabled] [expanded] [ref=e509]:
+                - generic [ref=e510]: Important Links
+            - list [ref=e513]:
+              - listitem [ref=e514]:
+                - link "Ministry of Interior Portal" [ref=e515] [cursor=pointer]:
+                  - /url: https://www.moi.gov.sa
+              - listitem [ref=e516]:
+                - link "National Unified Portal" [ref=e517] [cursor=pointer]:
+                  - /url: https://www.my.gov.sa
+              - listitem [ref=e518]:
+                - link "National Strategy for Data & Artificial Intelligence" [ref=e519] [cursor=pointer]:
+                  - /url: https://sdaia.gov.sa/en/SDAIA/SdaiaStrategies/Pages/NationalStrategyForDataAndAI.aspx
+              - listitem [ref=e520]:
+                - link "Open Data Platform" [ref=e521] [cursor=pointer]:
+                  - /url: https://open.data.gov.sa
+              - listitem [ref=e522]:
+                - link "e-Participation Portal" [ref=e523] [cursor=pointer]:
+                  - /url: https://eparticipation.my.gov.sa/en/
+              - listitem [ref=e524]:
+                - link "Public Consultation Platform" [ref=e525] [cursor=pointer]:
+                  - /url: https://istitlaa.ncc.gov.sa/
+              - listitem [ref=e526]:
+                - link "e-Procurement Platform" [ref=e527] [cursor=pointer]:
+                  - /url: https://portal.etimad.sa/en-us
+              - listitem [ref=e528]:
+                - link "Government Mobile Applications" [ref=e529] [cursor=pointer]:
+                  - /url: https://my.gov.sa/en/content/mobile-government
+        - generic [ref=e530]:
+          - generic [ref=e531]:
+            - generic [ref=e532]: Accessibility Tools
+            - list [ref=e533]:
+              - listitem [ref=e534]:
+                - link "contrast mode toggle" [ref=e535] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=e536]
+              - listitem [ref=e539]:
+                - link "font resize toggle" [ref=e540] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=e541]
+              - listitem [ref=e543]:
+                - link "font resize toggle" [ref=e544] [cursor=pointer]:
+                  - /url: javascript:void(0)
+                  - img [ref=e545]
+            - link "Sign Language Support" [ref=e548] [cursor=pointer]:
+              - /url: "?uri=nm:oid:absher.sign"
+              - img [ref=e549]
+              - generic [ref=e551]: Sign Language Support
+          - generic [ref=e552]:
+            - generic [ref=e553]: Contact Us
+            - link "920020405" [ref=e555] [cursor=pointer]:
+              - /url: javascript:void();
+              - img [ref=e556]
+              - generic [ref=e560]: "920020405"
+            - list [ref=e561]:
+              - listitem [ref=e562]:
+                - link "youtube" [ref=e563] [cursor=pointer]:
+                  - /url: http://www.youtube.com/user/moigovsa
+                  - img [ref=e564]
+              - listitem [ref=e566]:
+                - link "twitter" [ref=e567] [cursor=pointer]:
+                  - /url: https://twitter.com/absher
+                  - img [ref=e568]
+              - listitem [ref=e569]:
+                - link "facebook" [ref=e570] [cursor=pointer]:
+                  - /url: https://www.facebook.com/AbsherKSA
+                  - img [ref=e571]
+              - listitem [ref=e573]:
+                - link "snapchat" [ref=e574] [cursor=pointer]:
+                  - /url: https://www.snapchat.com/add/absher.sa
+                  - img [ref=e575]
+            - link "raqmi" [ref=e578] [cursor=pointer]:
+              - /url: https://raqmi.dga.gov.sa/platforms/platforms/00819c21-5208-4b4c-484d-08dd5ee141eb/platform-license
+              - img "raqmi"
+      - generic [ref=e580]:
+        - list [ref=e581]:
+          - listitem [ref=e582]:
+            - link "Privacy Policy" [ref=e583] [cursor=pointer]:
+              - /url: "?uri=nm:oid:moi.Privacy%2520Policy"
+          - listitem [ref=e584]:
+            - link "Terms of Use" [ref=e585] [cursor=pointer]:
+              - /url: "?uri=nm:oid:moi.Terms%2520of%2520Use"
+          - listitem [ref=e586]:
+            - link "Sitemap" [ref=e587] [cursor=pointer]:
+              - /url: "?uri=nm:oid:moi.absher.footer.sitemap"
+          - listitem [ref=e588]:
+            - link "Calendar" [ref=e589] [cursor=pointer]:
+              - /url: "?uri=nm:oid:moi.absher.footer.calendar"
+        - paragraph [ref=e591]:
+          - text: Copyright ©
+          - generic [ref=e592]: "1447"
+          - text: AH -
+          - generic [ref=e593]: "2026"
+          - text: G Absher, Kingdom of Saudi Arabia.
+        - generic [ref=e594]:
+          - text: Powered by National Information Center
+          - img [ref=e595]
+    - generic [ref=e597]:
+      - generic [ref=e600]:
+        - text: This website may use cookies for functional purposes, such as providing an improved user experience and understanding user preferences. By continuing to use this website, you consent to the use of cookies as described in our
+        - link "Privacy Policy." [ref=e601] [cursor=pointer]:
+          - /url: "?uri=nm:oid:Z6_0O2MD1QCAF0QH4D5MF00000000"
+          - generic [ref=e602]: Privacy Policy.
+        - text: Users have the option to refuse the use of cookies by adjusting their browser settings.
+      - link "Agree" [ref=e604] [cursor=pointer]:
+        - /url: "javascript: void(0);"
+        - generic [ref=e605]: Agree
+  - img "user" [ref=e612] [cursor=pointer]
+```
