@@ -1,4 +1,4 @@
-Docs
+## Docs
 
 # to run the test in the browser
 npx playwright test --headed 
